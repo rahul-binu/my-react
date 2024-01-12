@@ -1,2 +1,2 @@
 # MY REACT Journey Star Here
-trying to learn the react.j
+trying to learn the react.js
