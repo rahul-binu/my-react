@@ -12,12 +12,12 @@ root.render(
   </React.StrictMode>
 );
 
-const home = ReactDOM.createRoot(document.getElementById('home'));
+/*const home = ReactDOM.createRoot(document.getElementById('home'));
 home.render(
   <React.StrictMode>
     <Home />
   </React.StrictMode>
-);
+); */
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
