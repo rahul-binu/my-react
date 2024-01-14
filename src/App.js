@@ -5,7 +5,10 @@ function App() {
   return (
     <Router>
       <div>
-        <Route path="/" exact component={Home} />
+        <Navigation />
+        <Switch>
+          <Route path="/" exact component={Home} />
+        </Switch>
       </div>
     </Router>
   );
