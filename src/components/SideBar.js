@@ -1,5 +1,3 @@
-
-
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
@@ -13,14 +11,11 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 
-type Anchor = 'top' | 'left' | 'bottom' | 'right';
+type Anchor = 'left';
 
 export default function SwipeableTemporaryDrawer() {
   const [state, setState] = React.useState({
-    top: false,
     left: false,
-    bottom: false,
-    right: false,
   });
 
   const toggleDrawer = (anchor, open) => (event) => {
@@ -32,10 +27,10 @@ export default function SwipeableTemporaryDrawer() {
     ) {
       return;
     }
-  
+
     setState((prevState) => ({ ...prevState, [anchor]: open }));
   };
-  
+
 
   const list = (anchor: Anchor) => (
     <Box
@@ -74,7 +69,7 @@ export default function SwipeableTemporaryDrawer() {
 
   return (
     <div>
-      {(['left', 'right', 'top', 'bottom'].map((anchor) => (
+      {(['left'].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
           <SwipeableDrawer
@@ -89,5 +84,5 @@ export default function SwipeableTemporaryDrawer() {
       )))}
     </div>
   );
-  
+
 }

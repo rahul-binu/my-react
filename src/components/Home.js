@@ -7,6 +7,8 @@ function Home() {
   return (
     <div>
       <h1 className="Title">Home Page</h1>
+      <h4>lorem23jdfbjdbvkdnvbgdvierdfviheisdfhiuvw</h4>
+      <a href="google.com">hai</a>
     </div>
   );
 }
