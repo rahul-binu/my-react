@@ -4,7 +4,7 @@ import React from 'react';
 function NavBar(){
     return(
         <div>
-            hai
+            <p>navbar</p>
         </div>
     );
 }
