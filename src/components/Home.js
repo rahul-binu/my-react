@@ -3,12 +3,13 @@ import React from 'react';
 //import 'bootstrap/dist/js/bootstrap.bundle.min';
 import '../styles/Home.css';
 
+type Anchor = 'new link';
 function Home() {
   return (
     <div>
       <h1 className="Title">Home Page</h1>
       <h4>lorem23jdfbjdbvkdnvbgdvierdfviheisdfhiuvw</h4>
-      <a href="google.com">hai</a>
+      <a href="">Anchor</a>
     </div>
   );
 }
