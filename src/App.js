@@ -9,7 +9,7 @@ function App() {
       <SideBar />
       <NavBar />
       <Home />
-      <ListEmployeeComponent />
+     
     </div>
   );
 }
