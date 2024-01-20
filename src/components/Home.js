@@ -3,7 +3,6 @@ import React from 'react';
 //import 'bootstrap/dist/js/bootstrap.bundle.min';
 import '../styles/Home.css';
 
-type Anchor = 'new link';
 function Home() {
   return (
     <div>

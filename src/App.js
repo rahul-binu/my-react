@@ -9,7 +9,6 @@ function App() {
       <SideBar />
       <NavBar />
       <Home />
-     
     </div>
   );
 }
