@@ -15,7 +15,7 @@ type Anchor = 'left';
 
 export default function SwipeableTemporaryDrawer() {
   const [state, setState] = React.useState({
-    left: false,
+    left: false
   });
 
   const toggleDrawer = (anchor, open) => (event) => {
