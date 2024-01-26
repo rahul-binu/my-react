@@ -7,7 +7,7 @@ function ConditionalRendering() {
     } else {
         content = <p> log In pleace </p>;
     }
-    {isLoggedIn ? (<p>conditional statement <br />you are welcome</p>) :(<p>please login </p>)}
+    { isLoggedIn ? (<p>conditional statement <br />you are welcome</p>) : (<p>please login </p>) }
     return (
         <div>
             {content}
