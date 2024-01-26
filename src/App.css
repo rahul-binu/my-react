@@ -2,6 +2,10 @@
   text-align: start;
 }
 
-.userContent{
-  padding-left:2rem;
+.userContent {
+  padding-left: 2rem;
+}
+
+.board-row {
+  padding-left: 3em;
 }
