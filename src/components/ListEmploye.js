@@ -14,7 +14,6 @@ class ListEmployeeComponent extends Component {
         this.deleteEmployee = this.deleteEmployee.bind(this);
     }
 
-
     render() {
         return (
             <div>
