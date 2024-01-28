@@ -12,6 +12,9 @@ const user = {
   college: 'nss'
 }
 
+class APP{}
+
+
 function MyButton() {
   return (
     <>
@@ -76,5 +79,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
