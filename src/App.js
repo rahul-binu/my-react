@@ -9,7 +9,7 @@ import { useState } from 'react';
 const user = {
   name: 'ram',
   age: '20',
-  college: 'nss'
+  college: 'NBM College TN'
 }
 
 class APP{}
