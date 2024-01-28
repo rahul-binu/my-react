@@ -11,7 +11,7 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 
-type Anchor = 'left';
+// type Anchor = 'left';
 
 export default function SwipeableTemporaryDrawer() {
   const [state, setState] = React.useState({
