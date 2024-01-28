@@ -31,7 +31,6 @@ export default function SwipeableTemporaryDrawer() {
     setState((prevState) => ({ ...prevState, [anchor]: open }));
   };
 
-
   const list = (anchor: Anchor) => (
     <Box
       sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}
