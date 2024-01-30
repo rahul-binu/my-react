@@ -10,7 +10,7 @@ function Home() {
       <button>hai</button>
       <br />
       <hr />
-      <a href=""id="a">hfdoeuhfb</a>
+      <a href=""className="a">hfdoeuhfb</a>
     </div>
   );
 }
